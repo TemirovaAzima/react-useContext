@@ -1,8 +1,8 @@
 import {ComponentB} from './componentB.jsx'
-export const ComponentA =({name})=>{
+export const ComponentA =()=>{
     return(
         <div>
-           <ComponentB name={name}/>
+           <ComponentB/>
         </div>
     )
 }
